@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Teng | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanline"></div>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="prompt">&gt;</span> portfolio<span class="cursor">_</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">about()</a></li>
+            <li><a href="#projects">projects()</a></li>
+            <li><a href="#contact">contact()</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-frame">
+                    <img src="assets/images/profile.jpeg" alt="Profile Photo" class="profile-img">
+                </div>
+                <div class="status-indicator">
+                    <span class="dot"></span> Open to work
+                </div>
+            </div>
+            <div class="hero-text">
+                <p class="greeting">// Hello, World!</p>
+                <h1>I'm <span class="highlight">Jake Teng</span></h1>
+                <p class="tagline">Full-Stack Developer & Problem Solver</p>
+                <div class="terminal-block">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="prompt-sym">$</span> cat about.txt</p>
+                        <p class="output">I'm a business-trained Full-stack developer with 1+ years of experience in game development using Python, combining strong analytical skills with creativity, rapid learning, and cross-functional collaboration."</p>
+                        <p class="output">I'm a believer that "the best way to learn is to build.</p>
+                    </div>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">CI/CD</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Git</span>
+                    <span class="tech-tag">AWS Glue, S3, EC2, Amplify...</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="section-title"><span class="comment">/**</span> Projects <span class="comment">*/</span></h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="card-header">
+                    <div class="project-icon">
+                        <img src="assets/icons/kangacook-logo.png" alt="Kangacook Icon">
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://kangacook.com/" class="action-btn" title="Live Demo">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-name">Kangacook</h3>
+                <p class="project-desc">Community-driven recipe sharing platform</p>
+                <div class="project-tags">
+                    <span>React.js</span>
+                    <span>Django</span>
+                    <span>PostgreSQL</span>
+                    <span>AWS Cloud Services</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-header">
+                    <div class="project-icon">
+                        <img src="assets/icons/kangacode-logo.png" alt="Kangacode Icon">
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.kangacode.ai/us" class="action-btn" title="Live Demo">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-name">Kangacode</h3>
+                <p class="project-desc">K-12 Interactive learning platform that helps students write their first line of Python code through gameplay.</p>
+                <div class="project-tags">
+                    <span>Pygame</span>
+                    <span>PostgreSQL</span>
+                    <span>AWS Cloud Services</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-header">
+                    <div class="project-icon">
+                        <img src="assets/icons/RAG.webp" alt="Sherlock Holmes RAG Assistant Icon">
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://github.com/Sealaholic/RAG_Sherlock" class="action-btn" title="GitHub">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </a>
+                        <a href="https://rag-sherlock.onrender.com/" class="action-btn" title="Live Demo">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-name">Sherlock Holmes RAG Assistant</h3>
+                <p class="project-desc">A Retrieval-Augmented Generation (RAG) system built with Python for semantic search and question answering over Sherlock Holmes stories</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>OpenAI API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title"><span class="comment">/**</span> Contact <span class="comment">*/</span></h2>
+        <div class="contact-terminal">
+            <div class="terminal-header">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+                <span class="terminal-title">contact.sh</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="prompt-sym">$</span> echo $EMAIL</p>
+                <p class="output"><a href="shijieteng5@gmail.com">shijieteng5@gmail.com</a></p>
+                <p><span class="prompt-sym">$</span> echo $LINKEDIN</p>
+                <p class="output"><a href="https://www.linkedin.com/in/shijie-teng-b3b298288/">https://www.linkedin.com/in/shijie-teng-b3b298288/</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Built with <span class="highlight">&lt;/&gt;</span> and caffeine &copy; 2026</p>
+    </footer>
+</body>
+</html>
